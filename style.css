@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.container {
+  background-color: #0f1b3d;
+  background-image: url(images/bg-desktop.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 10px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.item {
+  background-color: #1c3469;
+  padding: 30px;
+  margin: 30px;
+  color: #fff;
+  border-radius: 4%; }
+
+.left-item {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  justify-content: flex-start;
+  border-top-right-radius: 30%; }
+
+.logo-img {
+  padding: 6%; }
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 7%; }
+
+.icon > img {
+  width: 23px;
+  height: 23px;
+  background-image: #fff;
+  background-blend-mode: screen; }
+
+.icon {
+  background-color: #0f1b3d;
+  border-radius: 10%;
+  padding: 6%; }
+
+.right-item {
+  width: 25%;
+  height: 135px;
+  display: flex;
+  flex-direction: column; }
+
+.notification-title > .span {
+  font-weight: 600; }
+
+.notification-percentage {
+  display: flex;
+  justify-content: space-between; }
+
+.notification-percentage > * {
+  font-weight: 600;
+  text-transform: uppercase; }
+
+.notification-img {
+  border-radius: 10px;
+  background-color: #0f1b3d; }
+
+.comleted {
+  background-image: linear-gradient(to right top, #d99ec9, #f5abba, #ffc0b0, #ffd8b2, #f6f0c4);
+  width: 60%;
+  border-radius: 15px;
+  border: 2.5px solid #0e0e5e;
+  display: flex;
+  justify-content: flex-end; }
+
+.point {
+  width: 15px;
+  background-color: #fff;
+  height: 15px;
+  border-radius: 15px; }
+
+.space {
+  padding: 2%; }
+
+.float-section {
+  position: absolute;
+  top: 38%;
+  right: 30%;
+  border: 2.5px solid #0e0e5e;
+  clip-path: polygon(100% 0%, 0% 0%, 0% 74%, 58% 74%, 100% 100%);
+  background-color: #fff;
+  padding: .5%;
+  padding-bottom: 1.5%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
+
+.main-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: end; }
+
+.number {
+  color: #0f1b3d;
+  font-weight: 900;
+  font-size: 2.5rem; }
+
+.number-2 {
+  margin-bottom: 5%; }
+
+.number-3 {
+  margin-top: 3%; }
+
+.desc {
+  text-transform: uppercase;
+  height: 50%;
+  color: grey; }
+
+.primary-section {
+  width: 15px;
+  height: 15px;
+  position: relative;
+  left: 87%;
+  clip-path: polygon(0 0, 100% 0%, 100% 100%); }
